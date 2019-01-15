@@ -118,9 +118,9 @@ $(document).ready(function($) {
 
         $('.overlay').vegas({
             slides: [
-                { src: 'img/slide-1.jpg' },
-                { src: 'img/slide-2.jpg' },
-                { src: 'img/slide-3.jpg' },
+                { src: 'img/1.jpg' },
+                { src: 'img/2.jpg' },
+                { src: 'img/3.jpg' },
             ],
 
             // Delay beetween slides in milliseconds.
