@@ -1957,6 +1957,14 @@ footer p {
   .mCSB_scrollTools-left {
     right: 0 !important;
   }
+
+  .brand-logo {
+    position: relative;
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
 }
 
 /* Small Devices, Tablets */
@@ -1994,6 +2002,13 @@ footer p {
   .dialog .dialog-inner {
     padding: 40px 20px 90px;
     overflow: hidden;
+  }
+  .brand-logo {
+    position: relative;
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
   }
 }
 
@@ -2056,6 +2071,13 @@ footer p {
   #subscribe p.notify-valid {
     font-size: 12px;
   }
+  .brand-logo {
+    position: relative;
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
 }
 
 /* Only for tablet in landscape mode */
@@ -2107,5 +2129,13 @@ footer p {
   }
   #subscribe p.notify-valid {
     font-size: 12px;
+  }
+
+  .brand-logo {
+    position: relative;
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
   }
 }
