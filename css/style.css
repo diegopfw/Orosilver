@@ -692,6 +692,15 @@ sup {
   text-align: center;
 }
 
+#info-wrap .dark-map {
+  position: relative;
+  background-color: #20232D;
+  height: 40vh;
+  display: table;
+  width: 100% !important;
+  text-align: center;
+}
+
 #info-wrap .dark-hero {
   position: relative;
   background-color: #20232D;
