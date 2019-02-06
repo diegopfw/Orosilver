@@ -41,14 +41,14 @@
                         $(".fa-spinner").addClass("opacity-0").removeClass("fa-spin");
                         $(".message").removeClass("bad-email").addClass("success-full");
                         $(".block-message").addClass("show-block-valid").removeClass("show-block-error");
-                        $(".message").html('<p class="notify-valid">Congrats! You are in list.<br>We will inform you as soon as we finish.</p>').fadeIn();
+                        $(".message").html('<p class="notify-valid">FELICITACIONES!.<br>Nosotros nos pondremos en cntacto contigo.</p>').fadeIn();
                     } else {
                         if (e.type == "ValidationError") {
                             $(".fa-spinner").addClass("opacity-0").removeClass("fa-spin");
-                            $(".message").html('<p class="notify-valid">This email address looks fake or invalid.<br>Please enter a real email address.</p>').fadeIn();
+                            $(".message").html('<p class="notify-valid">Este email es invalido.<br>Vuelve a ingresar el email.</p>').fadeIn();
                         } else {
                             $(".fa-spinner").addClass("opacity-0").removeClass("fa-spin");
-                            $(".message").html('<p class="notify-valid">Oops. Looks like something went wrong.<br>Please try again later.</p>').fadeIn();
+                            $(".message").html('<p class="notify-valid">Oops. Algo salio mal.<br>Vuelve a ingresar tu email.</p>').fadeIn();
                         }
                     }
                 })
@@ -56,7 +56,7 @@
                 $(".fa-spinner").addClass("opacity-0").removeClass("fa-spin");
                 $(".message").addClass("bad-email").removeClass("success-full");
                 $(".block-message").addClass("show-block-error").removeClass("show-block-valid");
-                $(".message").html('<p class="notify-valid">Your e-mail address is incorrect.<br>Please check it and try again.</p>').fadeIn();
+                $(".message").html('<p class="notify-valid">El email es incorrecto.<br>Vuelve a ingresar.</p>').fadeIn();
                 o.hide();
             }
 
