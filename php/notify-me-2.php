@@ -6,8 +6,8 @@
 	$o->status = 'success';
 	echo json_encode($o);
 
-	$email_to = "myemail@email.com"; // Write your email here to receive the email addresses submitted
-    $subject = 'New subscriber from LEGEND'; // Write the subject you'll see in your inbox
+	$email_to = "info@orosilver.ec"; // Write your email here to receive the email addresses submitted
+    $subject = 'Inscribete'; // Write the subject you'll see in your inbox
 
 	$email = $_POST["email"];
 	$text = "Congratulations ! A new person wants to be alerted when your site will be online: $email";
