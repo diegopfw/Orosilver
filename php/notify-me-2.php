@@ -10,7 +10,7 @@
     $subject = 'Inscribete'; // Write the subject you'll see in your inbox
 
 	$email = $_POST["email"];
-	$text = "Congratulations ! A new person wants to be alerted when your site will be online: $email";
+	$text = "FELICITACIONES ! Pronto te enviaremos informacion sobre nuestras promociones: $email";
 
 	$headers = "MIME-Version: 1.0" . "\r\n"; 
 	$headers .= "Content-type:text/html; charset=utf-8" . "\r\n";
